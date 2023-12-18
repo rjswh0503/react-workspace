@@ -4,7 +4,7 @@ import React, {useState} from "react";
 
 
 function ObjectExample(){
-    const [Person, setPerson] = useState({name:'kh',age:20});
+    const [Dog, setDog] = useState({name:'웅이',age:10});
 
     const updateAge = () => {
         //...person : 현재 person 객체 속성을 펄쳐서 
@@ -20,12 +20,12 @@ function ObjectExample(){
     
 
 
-        setPerson({...Person, age : Person.age + 1});
+        setDog({...Dog, age : Dog.age + 1});
     }
     return (
         <div>
-            <p>Name:{Person.name}</p>
-            <p>Age: {Person.age}</p>
+            <p>Name:{Dog.name}</p>
+            <p>Age: {Dog.age}</p>
             <button onClick={updateAge}>나이올리기 버튼</button>
         </div>
 
