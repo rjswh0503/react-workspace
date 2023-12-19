@@ -10,6 +10,8 @@ import ImageChange from './js/ImageChange';
 import ObjectExample from './js/ObjectExample';
 import AnimalSound from './js/Animal';
 import TimerCount from './js/TimerCount';
+import ExamplCallback from './js/ExampleCollback';
+import PracticeTwo from './js/PracticeTwo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -22,10 +24,12 @@ root.render(
   {<ImageChange/>}
   <ObjectExample/>
   <AnimalSound/>
+  <ExamplCallback/>
 */}
   
   
-  <TimerCount/>
+ 
+ <PracticeTwo/>
   
   </React.StrictMode>
 );
