@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './js/App';
+import App from './App';
 import reportWebVitals from './js/reportWebVitals';
 import Count from './js/Count';
 import ToggleButton from './js/ToggleButton';
@@ -25,11 +25,12 @@ root.render(
   <ObjectExample/>
   <AnimalSound/>
   <ExamplCallback/>
+  <PracticeTwo/>
 */}
   
   
+  <App />
  
- <PracticeTwo/>
   
   </React.StrictMode>
 );
