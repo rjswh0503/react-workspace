@@ -12,6 +12,10 @@ import AnimalSound from './js/Animal';
 import TimerCount from './js/TimerCount';
 import ExamplCallback from './js/ExampleCollback';
 import PracticeTwo from './js/PracticeTwo';
+import ChildComponent from './js/ChildComponent';
+import Board from './js/Board';
+import HelloWorld from './js/JSXExam';
+import TagExam from './js/TagExam';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -26,11 +30,15 @@ root.render(
   <AnimalSound/>
   <ExamplCallback/>
   <PracticeTwo/>
+  <ChildComponent />
+  <Board/>
 */}
   
   
-  <App />
- 
+  {/*<App />*/}
+  <HelloWorld/>
+  <TagExam/>
+  
   
   </React.StrictMode>
 );
